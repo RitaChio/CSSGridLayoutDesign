@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>CSS GRIDS</title>
+       <!--<link rel="stylesheet" href="main.css">--> 
+       <style>
+           .wrapper{
+               display:grid;
+               grid-template-columns: 70% 30%;
+               /*grid-column-gap:1em;
+               grid-row-gap:1em;*/
+               grid-gap:1em;
+           }
+           .wrapper > div{
+               background:#eee;
+               padding:1em;
+           }
+           .wrapper > div:nth-child(odd){
+               background:#ddd;
+           }
+       </style>
+    </head>
+    <body>
+    <div class="wrapper">
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quo eveniet placeat.
+        In porro, repudiandae ipsum voluptatibus ratione enim accusantium rem consequatur ab?
+        Alias tenetur ratione quibusdam accusantium aut quis totam! Voluptas labore officiis, unde
+        sequi ad fuga, ex assumenda dolorem placeat atque excepturi ipsa architecto dolores dignissimos
+        quod quibusdam quasi repellat vero cum perspiciatis laboriosam qui sint exercitationem
+        quisquam. Quisquam suscipit fugiat doloremque quasi ad debitis dolor quaerat nihil aliquam at 
+        ducimus consequuntur repudiandae numquam elidendi, fugit, excepturi doloribus!
+    </div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quo eveniet placeat.
+        In porro, repudiandae ipsum voluptatibus ratione enim accusantium rem consequatur ab?
+        Alias tenetur ratione quibusdam accusantium aut quis totam!
+    </div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quo eveniet placeat.
+        In porro, repudiandae ipsum voluptatibus ratione enim accusantium rem consequatur ab?
+        Alias tenetur ratione quibusdam accusantium aut quis totam! Voluptas labore officiis, unde
+        sequi ad fuga, ex assumenda dolorem placeat atque excepturi ipsa architecto dolores dignissimos
+        quod quibusdam quasi repellat vero cum perspiciatis laboriosam qui sint exercitationem
+        quisquam. Quisquam suscipit fugiat doloremque quasi ad debitis dolor quaerat nihil aliquam at 
+        ducimus consequuntur repudiandae numquam elidendi, fugit, excepturi doloribus!
+    </div>
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quo eveniet placeat.
+        In porro, repudiandae ipsum voluptatibus ratione enim accusantium rem consequatur ab?
+        Alias tenetur ratione quibusdam accusantium aut quis totam!
+    </div>
+    </div>
+        
+    </body>
+</html>
